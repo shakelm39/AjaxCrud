@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    box-shadow: 4x 5px 10px black;
+    background-color: rgb(35, 160, 160);
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    color:#fff;
+    font-size:1.7rem;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.btn{
+    width: 93%;
+    background-color: blueviolet;
+    font-size:1.5rem;
+    padding: 10px;
+    color:#fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.updateBtn{
+    width: 93%;
+    background-color: rgba(237, 19, 113, 0.74);
+    font-size:1.5rem;
+    padding: 10px;
+    color:#fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.readbtn{
+    width: 93%;
+    background-color: rgb(112, 237, 10);
+    font-size:1.5rem;
+    padding: 10px;
+    color:#fff;
+    cursor: pointer;
+    margin-left: 20px; 
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    border:1px solid #fff;
+    border-collapse:collapse;
+}
